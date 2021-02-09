@@ -4,10 +4,6 @@ Twitter Clone has a cloned homepage of popular social network Twitter.
 You can post tweet or an image or both. It uses firebase realtime database hence all the posts are updated as they are posted.
 
 ## Configuration
-
-
-
-## Usage
 You can clone this repo and add create a js file inside src directory with the name "firebase.js".  
 
 Add your firebase configuration inside newly created "firebase.js"
