@@ -1,0 +1,34 @@
+.post{
+display:flex;
+align-items: flex-start;
+border-bottom:1px solid var(--twitter-background);
+padding-bottom:10px;
+}
+.post__body>img{
+    border-radius: 20px;
+}
+.post__footer{
+    display:flex;
+    justify-content:space-between; /* Spread the icons evenly  */
+    margin-top:10px;
+}
+.post__badge{
+   font-size: 14px; 
+   color:var(--twitter-color);
+}
+.post__headerSpecial{
+    font-weight:400;
+    font-size:16px;
+    color:gray;
+}
+.post__headerDescription{
+    margin-bottom:10px;
+    font-size:15px;
+}
+.post__body{
+    flex:1;
+    padding:10px;
+}
+.post__avatar{
+    padding:20px;
+}
